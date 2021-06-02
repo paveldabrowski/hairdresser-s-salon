@@ -1,0 +1,23 @@
+.contact-form {
+  background-color: rgba(51, 56, 58, 0.45);
+}
+
+.contact-form .address h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.contact-form .address p {
+  font-size: 2.4rem;
+}
+
+.contact-form .my-form label, input, select, button {
+  font-size: 2rem;
+}
+
+.contact-form .my-form button {
+  padding: 1.5rem 3.5rem;
+  align-self: end;
+  align-content: end;
+  flex-basis: content;
+}

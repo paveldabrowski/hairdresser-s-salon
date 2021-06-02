@@ -1,0 +1,69 @@
+/*-------------------------------*/
+/*         about us              */
+/*-------------------------------*/
+#about-us .btn {
+  font-size: 1.8rem;
+  padding: 1.3rem;
+  /*max-height: 6rem;*/
+  /*min-width: 2rem;*/
+  /*background-color: #007BFF;*/
+}
+
+#about-us .additional-text {
+  font-size: 2rem;
+}
+
+#about-us .additional-text2 {
+  font-size: 1.8rem;
+}
+
+.about-us {
+  background-color: aliceblue;
+  z-index: -1;
+}
+
+#about-us img {
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*-------------------------------*/
+/*         carousel              */
+/*-------------------------------*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+#carousel .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#carousel h5 {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  padding-top: 15rem;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one{
+  background-image: url("src/assets/baner.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.carousel-img-two{
+  background-image: url("src/assets/ampit.jpg");
+}
+
+.carousel-img-three{
+  background-image: url("src/assets/ampit2.jpg");
+}

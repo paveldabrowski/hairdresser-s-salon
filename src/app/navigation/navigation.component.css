@@ -1,0 +1,34 @@
+nav {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.scissors {
+  color: #007BFF;
+  padding-inline: 1rem;
+  font-size: 4rem;
+  align-self: center;
+}
+
+.phone {
+  color: #007BFF;
+  margin-right: 1rem;
+  font-size: 4rem;
+}
+
+#logo {
+  width: 9rem;
+  margin-left: 1rem;
+  image-rendering: high-quality;
+  object-fit: cover;
+}

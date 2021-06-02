@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fryzjer Z Pasją</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/icons/icofont/icofont.min.css">
+  <meta name="theme-color" content="#1976d2">
+  <script src="https://kit.fontawesome.com/a496f2e223.js" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '#navbar-example',
+      offset: 500
+    })
+  });
+
+    var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+    dataSpyList.forEach(function (dataSpyEl) {
+      bootstrap.ScrollSpy.getInstance(dataSpyEl)
+        .refresh()
+    })
+  </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" class="scrollspy-example">
+
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+
+
+</body>
+</html>
